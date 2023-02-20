@@ -8,7 +8,6 @@ namespace BTI
 class draw
 {
   public:
-	//Initialize everything
 	SDL_Window *window = SDL_CreateWindow("test", 0, 0, WIDTH, HEIGHT, 0);
 	SDL_Renderer *renderer = SDL_CreateRenderer(window, 0, 0);
 	TTF_Font *font = TTF_OpenFont("/system/fonts/Roboto-Regular.ttf", 256);
