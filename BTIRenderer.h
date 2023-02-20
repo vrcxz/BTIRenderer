@@ -57,7 +57,7 @@ class draw
 		SDL_RenderClear(renderer);
 	}
 
-	void clear_renderVoid()
+	void clear_renderVector()
 	{
 		renderVector.clear();
 	}
