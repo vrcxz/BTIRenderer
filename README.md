@@ -7,7 +7,7 @@ Download the header, add it to the same directory of your program and include th
 #include <string>
 #include <vector>
 
-//include SDL library to wrap
+//include SDL library GUI
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_ttf.h>
 #include <SDL2/SDL_image.h>
