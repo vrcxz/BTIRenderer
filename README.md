@@ -23,28 +23,27 @@ Include the following libraries:
 ## Hello World!
 To print a `Hello World!` text, see the following:
 ```
+//Initialize SDL and TTF
+SDL_Init(SDL_INIT_EVERYTHING);
+TTF_Init();
+	
+//Add context
+BTI::draw ctx;
+	
+//create a text and add it to the renderer
+BTI::text hello_text(ctx.renderer,ctx.font,{255,255,255},"Hello World!",0,0,5);
+ctx.addCopy(hello_text.texture,NULL,&hello_text.rect);
+	
+//clear the screen
+ctx.clear_render();
+	
+//render it to the buffer
+ctx.render();
+	
+//render it to the screen
+ctx.renderOutput();
+	
+//delay 1 second to view the program
+SDL_Delay(1000);
 
-	//Initialize SDL and TTF
-	SDL_Init(SDL_INIT_EVERYTHING);
-	TTF_Init();
-	
-	//Add context
-	BTI::draw ctx;
-	
-	//create a text and add it to the renderer
-	BTI::text hello_text(ctx.renderer,ctx.font,{255,255,255},"Hello World!",0,0,5);
-	ctx.addCopy(hello_text.texture,NULL,&hello_text.rect);
-	
-	//clear the screen
-	ctx.clear_render();
-	
-	//render it to the buffer
-	ctx.render();
-	
-	//render it to the screen
-	ctx.renderOutput();
-	
-	//delay 1 second to view the program
-	SDL_Delay(1000);
-}
 ```
