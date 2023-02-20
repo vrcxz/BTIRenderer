@@ -12,7 +12,7 @@ class draw
 	SDL_Renderer *renderer = SDL_CreateRenderer(window, 0, 0);
 	TTF_Font *font = TTF_OpenFont("/system/fonts/Roboto-Regular.ttf", 256);
 
-	std::vector<std::function<void()>> renderVector;
+	vector<std::function<void()>> renderVector;
 
 	void addCopy(SDL_Texture *texture, SDL_Rect *src, SDL_Rect *dst)
 	{
@@ -88,7 +88,7 @@ class text
 	SDL_Color color;
 	SDL_Texture *texture;
 	TTF_Font *font;
-	std::string t;
+	string t;
 
 	text(SDL_Renderer *renderer, TTF_Font *font, SDL_Color color, std::string t, int x, int y, int scale) : renderer(renderer), font(font), color(color), t(t), x(x), y(y), w(w), h(h), scale(scale)
 	{
@@ -104,7 +104,7 @@ class text
 		SDL_FreeSurface(surface);
 	}
 
-	void setValue(std::string new_t)
+	void setValue(string new_t)
 	{
 		t = new_t;
 		SDL_Surface *surface = TTF_RenderText_Solid(font, t.c_str(), color);
