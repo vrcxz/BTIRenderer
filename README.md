@@ -97,7 +97,6 @@ while (1)
 	//render it to the screen
 	ctx.renderOutput();
 
-	//delay 1 second to view the program
 	SDL_Delay(5);
 }
 ```
