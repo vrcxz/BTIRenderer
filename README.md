@@ -47,4 +47,9 @@ ctx.renderOutput();
 SDL_Delay(1000);
 
 ```
+![ss0](https://github.com/vonnogadas/BTIRenderer/raw/main/Untitled131_20230220223512.png)
+---
+## Bouncing DVD
+```
+```
 ![ss1](https://github.com/vonnogadas/BTIRenderer/raw/main/ezgif.com-gif-to-mp4.gif)
