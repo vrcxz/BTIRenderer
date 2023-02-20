@@ -12,7 +12,7 @@ class draw
 	SDL_Renderer *renderer = SDL_CreateRenderer(window, 0, 0);
 	TTF_Font *font = TTF_OpenFont("/system/fonts/Roboto-Regular.ttf", 256);
 
-	vector<std::function<void()>> renderVector;
+	vector<function<void()>> renderVector;
 
 	void addCopy(SDL_Texture *texture, SDL_Rect *src, SDL_Rect *dst)
 	{
