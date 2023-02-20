@@ -47,3 +47,4 @@ ctx.renderOutput();
 SDL_Delay(1000);
 
 ```
+![ss1](https://github.com/vonnogadas/BTIRenderer/raw/main/ezgif.com-gif-to-mp4.gif)
