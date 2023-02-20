@@ -149,7 +149,7 @@ class image
 	}
 };
 
-//end UI namespace
+//end BTI namespace
 }
 
 #endif
