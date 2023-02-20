@@ -31,7 +31,7 @@ TTF_Init();
 BTI::draw ctx;
 	
 //create a text and add it to the renderer
-BTI::text hello_text(ctx.renderer,ctx.font,{255,255,255},"Hello World!",0,0,5);
+BTI::text hello_text(ctx.renderer,ctx.font,{255,255,255},"Hello World!",0,0,3);
 ctx.addCopy(hello_text.texture,NULL,&hello_text.rect);
 	
 //clear the screen
