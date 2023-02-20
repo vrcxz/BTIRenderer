@@ -60,6 +60,7 @@ BTI::draw ctx;
 
 //declare variables for velocity
 int vx1 = 1, vy1 = 1;
+
 //create the DVD text and add it to the renderer
 BTI::text dvd1(ctx.renderer, ctx.font, {195, 255, 235}, "DVD", 0, 0, 5);
 ctx.addCopy(dvd1.texture, NULL, &dvd1.rect);
