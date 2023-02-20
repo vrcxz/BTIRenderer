@@ -13,8 +13,8 @@ Include the following libraries:
 #include <SDL2/SDL_image.h>
 
 //define macros for the window size
-#define HEIGHT 600
 #define WIDTH 600
+#define HEIGHT 600
 
 //include the BTIRenderer wrapper
 #include "BTIRenderer.h"
