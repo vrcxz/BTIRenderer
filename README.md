@@ -21,7 +21,7 @@ Download the header, add it to the same directory of your program and include th
 ```
 
 ## Hello World!
-To print a `Hello World!` text, see the following:
+To print a `Hello World!` text, do the following:
 ```cpp
 //Initialize SDL and TTF
 SDL_Init(SDL_INIT_EVERYTHING);
