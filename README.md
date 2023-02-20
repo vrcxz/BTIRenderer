@@ -19,8 +19,8 @@ Download the header, add it to the same directory of your program and include th
 //include the BTIRenderer wrapper
 #include "BTIRenderer.h"
 ```
-
-## Hello World!
+## Example
+### Hello World!
 To print a `Hello World!` text, do the following:
 ```cpp
 //Initialize SDL and TTF
@@ -52,7 +52,7 @@ SDL_Delay(1000);
 ```
 ![ss0](https://github.com/vonnogadas/BTIRenderer/raw/main/Untitled131_20230220223512.png)
 ---
-## Bouncing DVD
+### Bouncing DVD
 ```cpp
 //Initialize SDL and TTF
 SDL_Init(SDL_INIT_EVERYTHING);
