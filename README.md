@@ -2,7 +2,7 @@
 BTIRenderer (or Box, Text, and Image Renderer) is a single header, bare-bones SDL2 wrapper to ease the implementation of boxes, texts and images in SDL2, specifically made to be used in Cxxdroid.
 ## Setup
 Include the following libraries:
-```
+```cpp
 //necessary standard libraries to include
 #include <string>
 #include <vector>
@@ -22,7 +22,7 @@ Include the following libraries:
 
 ## Hello World!
 To print a `Hello World!` text, see the following:
-```
+```cpp
 //Initialize SDL and TTF
 SDL_Init(SDL_INIT_EVERYTHING);
 TTF_Init();
