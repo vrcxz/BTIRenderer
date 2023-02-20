@@ -104,3 +104,6 @@ while (1)
 }
 ```
 ![ss1](https://github.com/vonnogadas/BTIRenderer/raw/main/ezgif.com-gif-to-mp4.gif)
+
+#### Credits
+[Von Ryan Nogadas](https://github.com/vonnogadas)
