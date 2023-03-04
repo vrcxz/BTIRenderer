@@ -101,4 +101,5 @@ while (1)
 	SDL_Delay(5);
 }
 ```
+[Gif](https://github.com/vonnogadas/BTIRenderer/raw/main/ezgif.com-gif-to-mp4.gif):
 ![ss1](https://github.com/vonnogadas/BTIRenderer/raw/main/ezgif.com-gif-to-mp4.gif)
